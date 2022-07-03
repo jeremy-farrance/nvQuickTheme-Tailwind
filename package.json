@@ -7,7 +7,7 @@
     "build": "gulp build",
     "watch": "",
     "package": "gulp packageTheme",
-    "preinstall" "npm install -g gulp-cli"
+    "preinstall": "npm install -g gulp-cli"
   },
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.0",
