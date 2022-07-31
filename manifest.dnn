@@ -1,6 +1,6 @@
 <dotnetnuke type="Package" version="9.0">
   <packages>
-    <package name="nvisionative.nvQuickTheme-Tailwind" type="Skin" version="1.0.0">
+    <package name="nvisionative.nvQuickTheme-Tailwind" type="Skin" version="1.0.3">
       <friendlyName>nvQuickTheme-Tailwind</friendlyName>
       <description>A DNN Theme Dev Framework based on Tailwind CSS</description>
       <iconFile>MyIcon.png</iconFile>
