@@ -8,6 +8,10 @@
 <dnn:DnnJsInclude runat="server" FilePath="dist/scripts/custom.min.js" ForceProvider="DnnFormBottomProvider" Priority="120" PathNameAlias="SkinPath" />
 <dnn:DnnJsInclude runat="server" FilePath="dist/scripts/modernizr-custom.min.js" ForceProvider="DnnFormBottomProvider" Priority="130" PathNameAlias="SkinPath" />
 
+<dnn:DnnJsInclude runat="server" FilePath="https://cdn.tailwindcss.com" 
+  ForceProvider="DnnPageHeaderProvider" 
+  HtmlAttributesAsString="async:async,defer:defer" />
+
 <script runat="server">
     protected void Page_Init()
     {

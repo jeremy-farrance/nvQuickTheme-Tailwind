@@ -1,0 +1,52 @@
+{
+  "folders": [
+    {
+      "name": "nvQT-Tw (root)",
+      "path": "."
+    },
+    {
+      "name": "Partials (includes)",
+      "path": "partials"
+    },
+  ],
+  "settings": {
+    "files.associations": {
+      ".eslintrc": "json",
+      ".prettierrc": "json",
+      ".stylelintrc": "json"
+    },
+    "html.format.enable": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "terminal.integrated.cwd": "${workspaceFolder}",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.profiles.windows": {
+      "PowerShell": {
+        "path": "pwsh.exe",
+        "args": [
+          "-noexit",
+          "-command",
+          "Write-Host 'nvQuickTheme-Tailwind, at deploy using TailwindCss 3.1.x' -ForegroundColor Yellow;",
+          "Write-Host 'Reminders:\r\n - see the .code-workspace file to update this terminal startup output' -ForegroundColor DarkCyan;",
+          "Write-Host ' - Build is   > npm run build' -ForegroundColor DarkCyan;",
+          "Write-Host ' - Package is > npm run package (installable Zip created in /build)' -ForegroundColor DarkCyan;",
+          "Write-Host '';",
+          "nvm list | % { if($_.Contains('*')) { 'NVM: NodeJS v' + $_.Trim(' *') } } ;",
+          "# ls ; # for subsequent commands"
+        ]
+      }
+    },
+    "NOTE": "Using the nvisionative's primary color, #f15922, alpha at 75% (C0) for the title bar, 50% activity, and 25% status",
+    "workbench.colorCustomizations": {
+      "titleBar.activeBackground": "#f15922C0",
+      "activityBar.background": "#f1592280",
+      "statusBar.background": "#f1592240"
+    },
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+      "webpack.config.js": "webpack.*.config.js",
+      "*.code-workspace": ".browserslistrc, .eslint*, .*.json, .git*, .editorconfig, .nvmrc, .*ignore, gulp*.js, gulp*.ts, *.config.js, tsconfig.js*"
+    }
+  }
+}

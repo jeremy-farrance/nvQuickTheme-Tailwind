@@ -14,9 +14,13 @@
   <div class="bg-light-grey">
     <div class="flex flex-col navbar-header">
       <dnn:LOGO id="dnnLOGO" runat="server" />
-      <nav>
-        <!--dnn:MENU Placeholder-->
-      </nav>
+      <dnn:MENU
+        MenuStyle="menus/NavPrimary"
+        NodeSelector=""
+        IncludeNodes=""
+        ExcludeNodes="" 
+        runat="server"
+      ></dnn:MENU>
     </div>
   </div>
 </header>
